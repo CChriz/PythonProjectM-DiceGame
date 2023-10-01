@@ -26,9 +26,9 @@ Loop for each s in S:<br>
 The `value_iteration` method repeatedly called `perform_single_value_iteration` until the delta value was less than the predefined theta value. The algorithm was as follows:
 
 
-Loop:
-	delta <- 0
-	perform_single_value_iteration()
+Loop:<br>
+	delta <- 0<br>
+	perform_single_value_iteration()<br>
 until delta < theta
 
 
