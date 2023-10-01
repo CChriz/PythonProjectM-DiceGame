@@ -1,7 +1,5 @@
 # Dice Game Agent
 
-This README provides an overview of the Dice Game Agent coursework, detailing the approach, methods, and performance of the implemented agent.
-
 ## Approach
 
 ### Initial Approach
