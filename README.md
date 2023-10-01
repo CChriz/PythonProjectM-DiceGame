@@ -15,9 +15,9 @@ To address the limitations of the initial approach, the final agent was implemen
 This method performed value iteration once on all possible states of the current game. It updated the value function `V(s)` and returned the new delta value. The algorithm followed was as follows:
 
 
-Loop for each s in S:
-	v <- V(s)
-	V(s) <- max_a SUM _s',_r p(s',r|s,a)[r + gamma * V(s')]
+Loop for each s in S:<br>
+	v <- V(s)<br>
+	V(s) <- max_a SUM _s',_r p(s',r|s,a)[r + gamma * V(s')]<br>
 	delta <- max(delta, |v - V(s)|)
 
 
